@@ -1,0 +1,70 @@
+/* Navbar.css */
+.navbar-container {
+    background-color: #F1F8E8;
+    color:red; 
+    overflow: hidden;
+    /* display:flex; 
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    position: relative; */
+    position: centre;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    padding:5px;
+  }
+  
+   /* .navbar-title {
+    color: #2c3e50;
+    font-size: 24px;
+    position: absolute;
+    left: 20px; /* Adjust as necessary
+  } */
+  
+  /*.navbar-links {
+    display: flex;
+    gap: 20px;
+  }
+   */
+  
+  .navbar-link {
+    float:left;
+    display: block;
+    background-color: lightslategrey;
+    color:black;
+    text-align: center;
+    padding: 7px 100px ;
+    /* width:100%; */
+    /* height:30%; */
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .navbar-link:hover {
+    background-color: greenyellow;
+    color: black;
+  }
+  /* .content-container {
+    padding-top: 80px; /* Adjusted padding based on navbar height 
+    text-align: center; /* Center align content 
+    /*background-color: #FCEFF1; /* Light pink background color for content 
+    color:#01204E;
+    padding: 20px;
+    font-family: Garamond, serif;
+    font-size: 25px;
+    /* max-width: 800px;
+    line-height: 1.0;
+    margin: 20px auto; 
+} */
+.content-container {
+  padding-top: 80px; /* Adjusted padding based on navbar height */
+  text-align: center; /* Center align content */
+  color: #01204E; /* Dark blue color for text */
+  padding: 20px;
+  font-family: Garamond, serif;
+  font-size: 25px;
+  overflow-y: auto; /* Enable vertical scrolling */
+  max-height: 65vh; /* Limit the height to the viewport height */
+  margin: 0 auto; /* Center the container horizontally */
+}
